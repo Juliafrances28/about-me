@@ -1,0 +1,81 @@
+.masthead {
+  text-align: center;
+  color: white;
+  text-emphasis: bold;
+}
+
+body {
+  background-color: turquoise;
+}
+
+/* This is first paragaph header */
+h2 {
+  color: white;
+}
+
+/* This is class for the first paragraph- the text  */
+.aboutme {
+  width: 300px;
+  text-align: center;
+}
+
+/* This is the id for the dog photo */
+#dogs {
+  width: 30%;
+  border-radius: 30px;
+  /* position: relative; */
+  top: 30%;
+  bottom: 30%;
+  left: 45%;
+  right: 45%;
+}
+
+/* This is the class for the caption on the dog photo */
+.barley {
+  top: 100%;
+  bottom: 100%;
+  left: 10%;
+  right: 10%;
+}
+
+/* This is the id for the cupcake photo */
+#cupcake {
+  width: 30%;
+  border-radius: 30px;
+  top: 100%;
+  bottom: 100%;
+  left: 45%;
+  right: 45%;
+}
+
+/* This is the class for the caption on the cupcake photo  */
+.frog {
+  text-align: center;
+  top: 100%;
+  bottom: 100%;
+  left: 45%;
+  right: 45%;
+}
+
+/* This is <h5> for css on all three photo capitions */
+h5 {
+  color: white;
+}
+
+/* This is the id for the coffee photo */
+#coffee {
+  border-radius: 30px;
+  /* position: relative; */
+  top: 100%;
+  bottom: 100%;
+  left: 45%;
+  right: 45%;
+}
+
+/* This is the class for the caption on the coffee photo  */
+.beverage {
+  top: 100%;
+  bottom: 100%;
+  left: 45%;
+  right: 45%;
+}
