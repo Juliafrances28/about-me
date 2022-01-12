@@ -7,6 +7,7 @@
 .nav {
   margin: 0;
   font-size: 20;
+  font-style: bold;
   line-height: 48px;
 }
 
@@ -30,10 +31,11 @@ h2 {
 }
 
 /* This is the id for the dog photo */
+
 #dogs {
   width: 30%;
   border-radius: 30px;
-  /* position: relative; */
+  position: relative;
   top: 30%;
   bottom: 30%;
   left: 45%;
