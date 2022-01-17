@@ -4,10 +4,16 @@
   text-emphasis: bold;
 }
 
+.masthead-heading {
+  color: black;
+}
+
 .nav {
   margin: 0;
   font-size: 20;
   font-style: bold;
+  font-style: normal;
+  font: black;
   line-height: 48px;
   text-decoration: none;
 }
@@ -16,8 +22,9 @@
   justify-content: end;
   text-decoration: none;
   padding-right: 2cm;
-  color: white;
+  color: #ef10d5;
   font-weight: bold;
+  font-size: 20px;
 }
 
 .navbar-brand {
@@ -25,10 +32,11 @@
   padding-left: 2cm;
   text-decoration: none;
   color: black;
+  font-size: 48px;
 }
 
 body {
-  background-color: gray;
+  background-color: white;
 }
 
 /* .row {
@@ -87,7 +95,7 @@ body {
 
 /* This is <h5> for css on all three photo capitions */
 h5 {
-  color: white;
+  color: black;
 }
 
 /* This is the id for the coffee photo */
