@@ -9,33 +9,48 @@
   font-size: 20;
   font-style: bold;
   line-height: 48px;
+  text-decoration: none;
 }
 
 .nav-link {
-  list-style-type: none;
+  justify-content: end;
+  text-decoration: none;
+  padding-right: 2cm;
+  color: white;
+  font-weight: bold;
+}
+
+.navbar-brand {
+  padding-right: 2cm;
+  padding-left: 2cm;
+  text-decoration: none;
+  color: black;
 }
 
 body {
-  background-color: turquoise;
+  background-color: gray;
 }
+
+/* .row {
+  flex-direction: row-reverse;
+} */
 
 /* This is first paragaph header */
-h2 {
+/* h2 {
   color: white;
-}
+} */
 
 /* This is class for the first paragraph- the text  */
-.aboutme {
+/* .aboutme {
   width: 300px;
   text-align: center;
-}
+} */
 
 /* This is the id for the dog photo */
 
 #dogs {
   width: 30%;
   border-radius: 30px;
-  position: relative;
   top: 30%;
   bottom: 30%;
   left: 45%;
@@ -67,6 +82,7 @@ h2 {
   bottom: 100%;
   left: 45%;
   right: 45%;
+  image-rendering: center;
 }
 
 /* This is <h5> for css on all three photo capitions */
