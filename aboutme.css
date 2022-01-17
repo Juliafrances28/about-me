@@ -1,13 +1,16 @@
+/* This is for the class in the header on teh intro page */
 .masthead {
   text-align: center;
   color: white;
   text-emphasis: bold;
 }
 
+/* This is the class on the h1 tag on the intro page */
 .masthead-heading {
   color: black;
 }
 
+/* /* This is the nav styling on all pages  */
 .nav {
   margin: 0;
   font-size: 20;
@@ -18,6 +21,7 @@
   text-decoration: none;
 }
 
+/* This is the link styling on all pages */
 .nav-link {
   justify-content: end;
   text-decoration: none;
@@ -27,6 +31,7 @@
   font-size: 20px;
 }
 
+/* This is the styling for the nav brand on all pages */
 .navbar-brand {
   padding-right: 2cm;
   padding-left: 2cm;
@@ -35,32 +40,18 @@
   font-size: 48px;
 }
 
+/* This is the styling for the body tag on all pages */
 body {
   background-color: white;
 }
-
-/* .row {
-  flex-direction: row-reverse;
-} */
-
-/* This is first paragaph header */
-/* h2 {
-  color: white;
-} */
-
-/* This is class for the first paragraph- the text  */
-/* .aboutme {
-  width: 300px;
-  text-align: center;
-} */
 
 /* This is the id for the dog photo */
 
 #dogs {
   width: 30%;
   border-radius: 30px;
-  top: 30%;
-  bottom: 30%;
+  top: 60%;
+  bottom: 60%;
   left: 45%;
   right: 45%;
 }
@@ -114,4 +105,39 @@ h5 {
   bottom: 100%;
   left: 45%;
   right: 45%;
+}
+
+/* This is the class for the <p> header on the hobbies page */
+.hobbies {
+  color: black;
+  width: 30%;
+  border: 3px solid rgb(223, 20, 149);
+  padding: 2em;
+  margin-right: 110px;
+  float: right;
+}
+
+.fav {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.yoga {
+  float: right;
+}
+
+.party {
+  margin-left: 10px;
+  float: right;
+  margin-right: 10px;
+}
+
+.bookImg {
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+.zumba {
+  float: right;
+  margin: auto;
 }
