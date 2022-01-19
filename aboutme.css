@@ -130,6 +130,11 @@ h5 {
   margin-left: 10px;
   float: right;
   margin-right: 10px;
+  float: right;
+}
+
+.dance {
+  margin-right: 100px;
 }
 
 .bookImg {
