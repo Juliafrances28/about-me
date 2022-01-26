@@ -1,16 +1,6 @@
-/* This is for the class in the header on teh intro page */
-.masthead {
-  text-align: center;
-  color: white;
-  text-emphasis: bold;
-}
+/* This is the styling for nav section on all pages */
 
-/* This is the class on the h1 tag on the intro page */
-.masthead-heading {
-  color: black;
-}
-
-/* /* This is the nav styling on all pages  */
+/* This property references the nav styling */
 .nav {
   margin: 0;
   font-size: 20;
@@ -21,7 +11,7 @@
   text-decoration: none;
 }
 
-/* This is the link styling on all pages */
+/*  This property references the link styling */
 .nav-link {
   justify-content: end;
   text-decoration: none;
@@ -31,7 +21,7 @@
   font-size: 20px;
 }
 
-/* This is the styling for the nav brand on all pages */
+/*  This property references the nav brand */
 .navbar-brand {
   padding-right: 2cm;
   padding-left: 2cm;
@@ -40,12 +30,26 @@
   font-size: 48px;
 }
 
-/* This is the styling for the body tag on all pages */
+/*  This property references the color for the body */
 body {
   background-color: white;
 }
 
-/* This is the id for the dog photo */
+/* This is the styling for the intro page */
+
+/* This property references the header  */
+.masthead {
+  text-align: center;
+  color: white;
+  text-emphasis: bold;
+}
+
+/*  This property references the h1 tag  */
+.masthead-heading {
+  color: black;
+}
+
+/*  This property references the dog photo */
 
 #dogs {
   width: 30%;
@@ -56,7 +60,7 @@ body {
   right: 45%;
 }
 
-/* This is the class for the caption on the dog photo */
+/*  This property references the caption on the dog photo */
 .barley {
   top: 100%;
   bottom: 100%;
@@ -64,7 +68,7 @@ body {
   right: 10%;
 }
 
-/* This is the id for the cupcake photo */
+/* This property references the cupcake photo  */
 #cupcake {
   width: 30%;
   border-radius: 30px;
@@ -73,8 +77,7 @@ body {
   left: 45%;
   right: 45%;
 }
-
-/* This is the class for the caption on the cupcake photo  */
+/* This property references the caption on the cupcake photo   */
 .frog {
   text-align: center;
   top: 100%;
@@ -84,12 +87,12 @@ body {
   image-rendering: center;
 }
 
-/* This is <h5> for css on all three photo capitions */
+/*  This property references the <h5> on all three photo capitions  */
 h5 {
   color: black;
 }
 
-/* This is the id for the coffee photo */
+/* This property references the coffee photo */
 #coffee {
   border-radius: 30px;
   /* position: relative; */
@@ -99,7 +102,7 @@ h5 {
   right: 45%;
 }
 
-/* This is the class for the caption on the coffee photo  */
+/* This is the property for the caption on the coffee photo  */
 .beverage {
   top: 100%;
   bottom: 100%;
@@ -107,7 +110,9 @@ h5 {
   right: 45%;
 }
 
-/* This is the class for the <p> header on the hobbies page */
+/* The styling for hobbies page starts here  */
+
+/*  This property references the <p> tag */
 .hobbies {
   color: black;
   width: 30%;
@@ -117,15 +122,18 @@ h5 {
   float: right;
 }
 
+/*  This property references paragraph header */
 .fav {
   margin-top: 10px;
   text-align: center;
 }
 
+/*  This property references the yoga photo */
 .yoga {
   float: right;
 }
 
+/*  This property references the two zumba photo */
 .party {
   margin-left: 10px;
   float: right;
@@ -133,16 +141,53 @@ h5 {
   float: right;
 }
 
+/*  This property references the row with the zumba photos  */
+
 .dance {
-  margin-right: 100px;
+  margin-right: 10em;
 }
 
+/*  This property references the row of books img  */
 .bookImg {
   margin-left: 7%;
   margin-right: 7%;
 }
 
+/* This is the class for the video. The video not being used right now b/c it will not load properly */
 .zumba {
   float: right;
   margin: auto;
+}
+
+/* The styling for the seaGirt page starts here */
+
+/* This property references the header */
+.from {
+  text-align: center;
+}
+
+/* This property references the <p> tag */
+.seaGirt {
+  color: black;
+  width: 30%;
+  border: 3px solid red;
+  padding: 2em;
+  margin-top: 20px;
+  margin-right: 110px;
+  float: right;
+}
+
+.smile {
+  width: 100%;
+}
+
+.beach {
+  margin-top: 20px;
+  width: 30%;
+  border-radius: 30px;
+  float: left 30px;
+}
+
+.delicious {
+  width: 20%;
 }
