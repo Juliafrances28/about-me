@@ -177,17 +177,56 @@ h5 {
   float: right;
 }
 
+/* This property refences the joe leone's photo */
+.Italian {
+  width: 60%;
+  margin-top: 20px;
+  float: left 60;
+  margin: right 40px;
+}
+
+/* This property references the smile photo */
 .smile {
   width: 100%;
 }
 
+/* This porperty references the beach photo, but not sure I am using this */
 .beach {
   margin-top: 40px;
   width: 30%;
   float: 30px;
 }
 
-.delicious {
+/* This is the styling for the UWS page */
+
+/* This property references the paragraph */
+
+.current {
+  text-align: center;
+}
+
+.UWS {
+  color: black;
+  width: 30%;
+  border: 3px solid red;
+  padding: 2em;
+  margin-top: 20px;
+  margin-right: 110px;
+  float: right;
+}
+
+.img {
   width: 20%;
-  margin-top: auto;
+}
+
+/* results with the food tag issue, the four image cannot have there own div and still be tag as a unit. They must all be in the same div to she a tag */
+
+.food {
+  float: left;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+.parks {
+  margin-bottom: 20px;
 }
