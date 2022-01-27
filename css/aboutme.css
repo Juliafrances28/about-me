@@ -18,6 +18,7 @@
   padding-right: 2cm;
   font-weight: bold;
   font-size: 30px;
+  color: rgb(223, 20, 149);
 }
 
 /*  This property references the nav brand */
@@ -39,14 +40,13 @@ body {
 /* This property references the header  */
 .masthead {
   text-align: center;
-  color: white;
   text-emphasis: bold;
 }
 
 /*  This property references the h1 tag  */
 .masthead-heading {
   font-size: 80px;
-  color: rgb(223, 20, 149);
+  color: #df1495;
 }
 
 /* This property references the paragraph */
@@ -60,13 +60,13 @@ body {
 }
 
 /* This property references the dog photo  */
-#dogs {
+.dogs {
   width: 100%;
   border-radius: 30px;
 }
 
 /* This property references the cupcake photo  */
-#cupcake {
+.cupcake {
   width: 100%;
   border-radius: 30px;
   /* top: 100%;
@@ -76,19 +76,24 @@ body {
 }
 
 /* This property references the coffee photo */
-#coffee {
+.coffee {
   border-radius: 30px;
 }
 
-/* This is the property for the caption on the coffee photo 
-.beverage {
-  top: 100%;
-  bottom: 100%;
-  left: 45%;
-  right: 45%;
-} */
-
 /* The styling for hobbies page starts here  */
+
+/*  This property references paragraph header */
+.fav {
+  font-size: 80px;
+  color: #df1495;
+  margin-top: 10px;
+  text-align: center;
+}
+
+/*  This property references the yoga photo */
+.yoga {
+  float: right;
+}
 
 /*  This property references the <p> tag */
 .hobbies {
@@ -100,29 +105,11 @@ body {
   float: right;
 }
 
-/*  This property references paragraph header */
-.fav {
-  margin-top: 10px;
-  text-align: center;
-}
-
-/*  This property references the yoga photo */
-.yoga {
-  float: right;
-}
-
 /*  This property references the two zumba photo */
 .party {
   margin-left: 10px;
-  float: right;
-  margin-right: 10px;
-  float: right;
-}
-
-/*  This property references the row with the zumba photos  */
-
-.dance {
   margin-right: 10em;
+  float: right;
 }
 
 /*  This property references the row of books img  */
@@ -131,24 +118,21 @@ body {
   margin-right: 7%;
 }
 
-/* This is the class for the video. The video not being used right now b/c it will not load properly */
-.zumba {
-  float: right;
-  margin: auto;
-}
-
 /* The styling for the seaGirt page starts here */
 
 /* This property references the header */
 .from {
   text-align: center;
+  font-size: 80px;
+  font-weight: bold;
+  color: #df1495;
 }
 
 /* This property references the <p> tag */
 .seaGirt {
   color: black;
   width: 30%;
-  border: 3px solid red;
+  border: 3px solid #df1495;
   padding: 2em;
   margin-top: 20px;
   margin-right: 110px;
@@ -168,51 +152,50 @@ body {
   width: 100%;
 }
 
-/* This porperty references the beach photo, but not sure I am using this */
-.beach {
-  margin-top: 40px;
-  width: 30%;
-  float: 30px;
-}
-
 /* This is the styling for the UWS page */
 
-/* This property references the paragraph */
+/* This propert references the <h2> tag */
 
 .current {
+  font-size: 80px;
   text-align: center;
+  color: #df1495;
 }
 
+/* This property references the paragraph */
 .UWS {
   color: black;
   width: 30%;
-  border: 3px solid red;
+  border: 3px solid #df1495;
   padding: 2em;
   margin-top: 20px;
-  margin-right: 110px;
   float: right 10%;
 }
 
-.img {
-  width: 20%;
-}
-
-/* results with the food tag issue, the four image cannot have there own div and still be tag on the row div. They must all be in the same div to she a tag */
-
-.food {
+/* This property references the book photo */
+.books {
+  width: 40%;
+  margin-top: 20px;
+  margin-left: 10em;
   float: left;
-  margin-left: 7%;
-  margin-right: 7%;
 }
 
+/* This property references the park photo  */
 .parks {
   width: 40%;
   margin-bottom: 20px;
   float: right;
 }
 
-.books {
-  width: 40%;
-  margin-top: 20px;
-  float: left;
+/* This property references the img in the food row */
+.img {
+  width: 20%;
+}
+
+/* results with the food tag issue, the four image cannot have there own div and still be tag on the row div. They must all be in the same div to she a tag */
+
+/* This property references the food row */
+.food {
+  margin-left: 7%;
+  margin-right: 7%;
 }
