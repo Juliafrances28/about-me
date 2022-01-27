@@ -16,19 +16,18 @@
   justify-content: end;
   text-decoration: none;
   padding-right: 2cm;
-  color: #ef10d5;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 /*  This property references the nav brand */
-.navbar-brand {
+/* .navbar-brand {
   padding-right: 2cm;
   padding-left: 2cm;
   text-decoration: none;
   color: black;
   font-size: 48px;
-}
+} */
 
 /*  This property references the color for the body */
 body {
@@ -46,69 +45,48 @@ body {
 
 /*  This property references the h1 tag  */
 .masthead-heading {
+  font-size: 80px;
+  color: rgb(223, 20, 149);
+}
+
+/* This property references the paragraph */
+.banana {
   color: black;
-}
-
-/*  This property references the dog photo */
-
-#dogs {
   width: 30%;
-  border-radius: 30px;
-  top: 60%;
-  bottom: 60%;
-  left: 45%;
-  right: 45%;
+  border: 3px solid rgb(223, 20, 149);
+  padding: 2em;
+  margin-right: 110px;
+  float: right;
 }
 
-/*  This property references the caption on the dog photo */
-.barley {
-  top: 100%;
-  bottom: 100%;
-  left: 10%;
-  right: 10%;
+/* This property references the dog photo  */
+#dogs {
+  width: 100%;
+  border-radius: 30px;
 }
 
 /* This property references the cupcake photo  */
 #cupcake {
-  width: 30%;
+  width: 100%;
   border-radius: 30px;
-  top: 100%;
+  /* top: 100%;
   bottom: 100%;
   left: 45%;
-  right: 45%;
-}
-/* This property references the caption on the cupcake photo   */
-.frog {
-  text-align: center;
-  top: 100%;
-  bottom: 100%;
-  left: 45%;
-  right: 45%;
-  image-rendering: center;
-}
-
-/*  This property references the <h5> on all three photo capitions  */
-h5 {
-  color: black;
+  right: 45%; */
 }
 
 /* This property references the coffee photo */
 #coffee {
   border-radius: 30px;
-  /* position: relative; */
-  top: 100%;
-  bottom: 100%;
-  left: 45%;
-  right: 45%;
 }
 
-/* This is the property for the caption on the coffee photo  */
+/* This is the property for the caption on the coffee photo 
 .beverage {
   top: 100%;
   bottom: 100%;
   left: 45%;
   right: 45%;
-}
+} */
 
 /* The styling for hobbies page starts here  */
 
@@ -212,14 +190,14 @@ h5 {
   padding: 2em;
   margin-top: 20px;
   margin-right: 110px;
-  float: right;
+  float: right 10%;
 }
 
 .img {
   width: 20%;
 }
 
-/* results with the food tag issue, the four image cannot have there own div and still be tag as a unit. They must all be in the same div to she a tag */
+/* results with the food tag issue, the four image cannot have there own div and still be tag on the row div. They must all be in the same div to she a tag */
 
 .food {
   float: left;
@@ -228,5 +206,13 @@ h5 {
 }
 
 .parks {
+  width: 40%;
   margin-bottom: 20px;
+  float: right;
+}
+
+.books {
+  width: 40%;
+  margin-top: 20px;
+  float: left;
 }
