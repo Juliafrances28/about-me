@@ -18,7 +18,7 @@
   padding-right: 2cm;
   font-weight: bold;
   font-size: 30px;
-  color: rgb(223, 20, 149);
+  color: #df1495;
 }
 
 /*  This property references the nav brand */
@@ -98,7 +98,7 @@ body {
 /*  This property references the <p> tag */
 .hobbies {
   color: black;
-  width: 30%;
+  width: 40%;
   border: 3px solid rgb(223, 20, 149);
   padding: 2em;
   margin-right: 110px;
@@ -107,8 +107,8 @@ body {
 
 /*  This property references the two zumba photo */
 .party {
-  margin-left: 10px;
-  margin-right: 10em;
+  /* margin-left: 10px; */
+  margin-right: 5em;
   float: right;
 }
 
@@ -118,39 +118,10 @@ body {
   margin-right: 7%;
 }
 
-/* The styling for the seaGirt page starts here */
-
-/* This property references the header */
-.from {
-  text-align: center;
-  font-size: 80px;
-  font-weight: bold;
-  color: #df1495;
-}
-
-/* This property references the <p> tag */
-.seaGirt {
-  color: black;
-  width: 30%;
-  border: 3px solid #df1495;
-  padding: 2em;
-  margin-top: 20px;
-  margin-right: 110px;
-  float: right;
-}
-
-/* This property refences the joe leone's photo */
-.Italian {
-  width: 60%;
-  margin-top: 20px;
-  float: left 60;
-  margin: right 40px;
-}
-
-/* This property references the smile photo */
-.smile {
-  width: 100%;
-}
+/* This property references the book row */
+/* .reading {
+  margin-bottom: 20px;
+} */
 
 /* This is the styling for the UWS page */
 
